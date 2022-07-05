@@ -1,17 +1,25 @@
-import { ColorModeScript } from '@chakra-ui/react';
 import React, { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from './serviceWorker';
 
+import { ChakraProvider } from '@chakra-ui/react';
+
+import lt_theme from './common/lt-theme';
+import '@fontsource/prompt/900.css'
+import '@fontsource/prompt/400.css'
+
+
+
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
 
 root.render(
   <StrictMode>
-    <ColorModeScript />
-    <App />
+    <ChakraProvider theme={lt_theme}>
+      <App />
+    </ChakraProvider>
   </StrictMode>
 );
 
