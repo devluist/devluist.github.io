@@ -170,6 +170,7 @@ export default function App() {
 
 			<Center position="absolute" top="0" left="0" ref={INTRO} bg="#111111" className='intro' h="100vh" w="100%" zIndex="100">
 				<Image
+					alt='My Personal Logo'
 					ref={INTRO_LOGO}
 					w={{ sm: '90px', md: '140px' }}
 					h={{ sm: '90px', md: '140px' }}
@@ -208,6 +209,7 @@ export default function App() {
 						justifyContent="center"
 					>
 						<Image
+							alt='A selfie of me'
 							width="80%"
 							height="80%"
 							borderRadius="3%"
@@ -275,7 +277,7 @@ export default function App() {
 					<Text ref={TEXT_FRONTEND} fontWeight="extrabold" color="#CC676A" fontSize={{base: "30px", md: "48px"}} ml={{base: "20px", mb:"60px"}}>Frontend</Text>
 
 					<Flex flexDirection="column" alignItems="center" position="relative">
-						<Image ref={IMG_BRAIN_R} width={{base: "200px", lg: "300px"}} src='/assets/images/right_brain.webp' />
+						<Image ref={IMG_BRAIN_R} alt='Right brain hemisphere 3D model' width={{base: "200px", lg: "300px"}} src='/assets/images/right_brain.webp' />
 						<Text
 							zIndex="100"
 							ref={TEXT_OVER_BRAIN}
@@ -289,7 +291,7 @@ export default function App() {
 						>
 							My brain as a Fullstack Developer
 						</Text>
-						<Image ref={IMG_BRAIN_L} width={{base: "200px", lg: "300px"}} src='/assets/images/left_brain.webp' />
+						<Image ref={IMG_BRAIN_L} alt='Left brain hemisphere 3D model' width={{base: "200px", lg: "300px"}} src='/assets/images/left_brain.webp' />
 					</Flex>
 
 					<Text ref={TEXT_BACKEND} fontWeight="extrabold" color="#FF7D58" fontSize={{base: "30px", md: "48px"}} textAlign="right" mr="15px">Backend</Text>
@@ -307,21 +309,21 @@ export default function App() {
 				<Center className='subsections3' w="100vw" h="100vh" position="relative">
 					<Text transform="rotate(-90deg)" position="absolute" borderBottom="3px solid #CC676A" left="0%" fontSize={{base:"28px", lg: "48px"}} fontWeight="bold">Brand Id</Text>
 					<Center flexDirection="column" justifyContent="space-evenly" alignItems="flex-end" w="80vw" h="100vh">
-						<Image w="75%" h="40%" src="/assets/images/selected_work/biz-card.webp" />
-						<Image w="75%" h="40%" src="/assets/images/selected_work/product-sticker.webp" />
+						<Image alt='Business card design for a client' w="75%" h="40%" src="/assets/images/selected_work/biz-card.webp" />
+						<Image alt='Product sticker design for a client' w="75%" h="40%" src="/assets/images/selected_work/product-sticker.webp" />
 					</Center>
 				</Center>
 				<Center className='subsections3' w="100vw" h="100vh">
-					<Image w={{base: '100%', lg: "35%"}} height={{base: '80%', lg: "125%"}} src="/assets/images/selected_work/pendon-gisell.webp" transform={{base: 'unset', lg: "rotate(-90deg)"}} />
+					<Image alt='Poster design for a client' w={{base: '100%', lg: "35%"}} height={{base: '80%', lg: "125%"}} src="/assets/images/selected_work/pendon-gisell.webp" transform={{base: 'unset', lg: "rotate(-90deg)"}} />
 				</Center>
 				<Flex transform="rotate(-90deg)" flexDirection="column" justifyContent="center" alignItems="center" className='subsections3' w="100vw" h="100vh" >
 					<Text borderBottom="3px solid #CC676A" mb="10px" fontSize={{base:"28px", lg: "48px"}} fontWeight="bold">Jersey Design</Text>
 
 					<Show breakpoint='(max-width: 767px)'>
-						<Image src="/assets/images/selected_work/jerseys-mockups.webp" maxWidth="90%" />
+						<Image alt='Jersey designs made for clients' src="/assets/images/selected_work/jerseys-mockups.webp" maxWidth="90%" />
 					</Show>
 					<Show breakpoint='(min-width: 768px)'>
-						<Image src="/assets/images/selected_work/jerseys-mockups-rotated.webp" h="100%" />
+						<Image alt='Jersey designs made for client' src="/assets/images/selected_work/jerseys-mockups-rotated.webp" h="100%" />
 					</Show>
 				</Flex>
 				<Center flexDirection="column" className='subsections3' w="100vw" h="100vh">
@@ -337,7 +339,7 @@ export default function App() {
 				</Center>
 			</Flex>
 
-			<Center className="section4" bg="#d53333" color="#000000" w="100vw" h="100vh">
+			<Center className="section4" bg="#d53333" /* color="#000000" */ w="100vw" h="100vh">
 				<Box w={{base: "90vw", md: "80vw"}} >
 					<Text fontWeight="extrabold" color="#ffd76e" fontSize={{base: "30px", lg: "48px"}} textAlign="right" >Backend</Text>
 					<Text textAlign="justify" hyphens="auto" fontSize={{base:"14px", md:"18px", lg:"24px"}}>
@@ -353,6 +355,7 @@ export default function App() {
 			<Flex w="100vw" className='section5' flexDirection="column" alignItems="center" sx={{ text: { fill: "white", fontSize: "1.2em" }}}>
 				<Text fontWeight="extrabold" fontSize={{base:"30px", lg:"46px"}} mt="10vh" >What my brain ❤️?</Text>
 				<Image
+					alt='3D brain model'
 					ref={IMG_BRAIN_IN_LOVE}
 					w={{base:"30%", lg:"200px"}}
 					src='/assets/images/brain.webp'
