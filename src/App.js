@@ -255,13 +255,8 @@ export default function App() {
 
 				<Flex mt="10vh" flexDirection='column' alignItems="center">
 					<ItemList>
-						<Link target="_blank" href="/assets/Luis_Tena_CV_SSr_Developer.pdf">
-							PDF (for humans)
-						</Link>
-					</ItemList>
-					<ItemList>
-						<Link target="_blank" href="/assets/Luis_Tena_ATS_CV.pdf">
-							PDF (for ATS)
+						<Link target="_blank" href="/assets/Luis_Tena-SSr_Full_Stack_Developer.pdf">
+							PDF
 						</Link>
 					</ItemList>
 					<ItemList>Video (coming soon)</ItemList>
