@@ -6,7 +6,7 @@ export const TwitterIcon = () => <Link href="https://twitter.com/dev_luist" aria
         alt='My Twitter account'
         width="30px"
         height="30px"
-        src='/assets/images/logo_twitter.svg'
+        src='assets/images/logo_twitter.svg'
     />
 </Link>
 
@@ -15,7 +15,7 @@ export const TelegramIcon = () => <Link href="https://t.me/dev_luist" aria-label
         alt='My Telegram account'
         width="30px"
         height="30px"
-        src='/assets/images/logo_telegram.svg'
+        src='assets/images/logo_telegram.svg'
     />
 </Link>
 
@@ -24,7 +24,7 @@ export const LinkedinIcon = () => <Link href="https://linkedin.com/in/luistena" 
         alt='My LinkedIn account'
         width="30px"
         height="30px"
-        src='/assets/images/logo_linkedin.svg'
+        src='assets/images/logo_linkedin.svg'
     />
 </Link>
 
@@ -33,7 +33,7 @@ export const GithubIcon = () => <Link href="https://github.com/devluist" aria-la
         alt='My Github account'
         width="30px"
         height="30px"
-        src='/assets/images/logo_github.svg'
+        src='assets/images/logo_github.svg'
     />
 </Link>
 
@@ -42,7 +42,7 @@ export const EmailIcon = () => <Link href="mailto:des.luistena@gmail.com" aria-l
         alt='My Email account'
         width="30px"
         height="30px"
-        src='/assets/images/icon_email.svg'
+        src='assets/images/icon_email.svg'
     />
 </Link>
 
@@ -50,5 +50,5 @@ export const GoUpIcon = () => <Image
         alt='Go to Top of the page'
         width="30px"
         height="30px"
-        src='/assets/images/arrow_up.svg'
+        src='assets/images/arrow_up.svg'
     />
