@@ -804,13 +804,19 @@ export default function App() {
 						<Text textStyle="notes">1y exp/50% mastered</Text>
 					</ListItem>
 					<ListItem mb="20px">
+						<Text textStyle="lang">Database 📚</Text>
+						Used as as Developer and also for DevOps tasks to check data integrity and Grafana/Prometheus queries.
+						<Text textStyle="tools">PostgresSQL, MySQL, MongoDB</Text>
+						<Text textStyle="notes">4y exp/60% mastered</Text>
+					</ListItem>
+					<ListItem mb="20px">
 						<Text textStyle="lang">DevOps 😶‍🌫️</Text>
 						Terminals are among my favorite toys. But I'm on my way to learning way more from it.
 						<Text textStyle="tools">Docker, Linux, Git, Bash, Cronjob, Nginx</Text>
 						<Text textStyle="notes">2y exp/60% mastered</Text>
 					</ListItem>
 					<ListItem mb="20px">
-						<Text textStyle="lang">Rust 🫠</Text>
+						<Text textStyle="lang">Rust 🦀</Text>
 						It is on my bucket list of tools to learn in the coming months. The programming languages killer.
 					</ListItem>
 				</List>
