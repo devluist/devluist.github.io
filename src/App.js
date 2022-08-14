@@ -248,7 +248,7 @@ export default function App() {
 					w="90vw"
 					marginLeft="5vw"
 					fontSize={{ sm: '18px', md: '20px' }}
-					fontWeight="bold"
+					fontWeight="400"
 				>
 					Ordered by faster to read first
 				</Text>
@@ -355,7 +355,7 @@ export default function App() {
 					w={{base:"30%", lg:"200px"}}
 					src='assets/images/brain.webp'
 				/>
-				<Box w={{base: "100%", lg: "70%"}}>
+				<Box w={{base: "100%", lg: "40%"}}>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						id="mysvg"
@@ -374,7 +374,7 @@ export default function App() {
 							strokeWidth="1"
 							d="m 232.65647,44.597392 c 2.42502,15.811218 -2.39568,32.588718 -12.844,44.701027 -10.44831,12.112311 -26.33699,19.342351 -42.3329,19.263311 -6.96884,-0.0344 -14.01928,-1.37291 -20.85123,0.002 -7.45407,1.50011 -14.10948,6.28661 -18.24513,12.66704 -4.13565,6.38042 -5.7904,14.24922 -4.98133,21.80957 0.80908,7.56035 4.01369,14.78906 8.75268,20.73511 4.73898,5.94605 10.97246,10.63039 17.82892,13.91709 13.71293,6.57338 29.52937,7.50955 44.64687,5.86177 15.11749,-1.64778 29.84579,-5.73266 44.74205,-8.79129 16.97316,-3.48508 34.30772,-5.64771 51.61832,-4.88805 17.3106,0.75966 34.6387,4.51591 50.07874,12.37969 15.44005,7.86378 28.92184,19.98415 37.10207,35.2589 8.18023,15.27474 10.7576,33.75573 5.68303,50.32325 -2.90722,9.49154 -8.21728,18.18381 -15.01432,25.41855 -6.79703,7.23475 -15.05747,13.03186 -23.98245,17.37764 -17.84998,8.69156 -38.0467,11.52292 -57.89982,11.65892 -29.43578,0.20165 -58.57758,-5.24124 -87.85539,-8.29346 -29.2778,-3.05222 -59.56246,-3.60581 -87.38601,6.0044 -19.44472,6.71618 -37.332108,18.4999 -50.011646,34.6997 -12.679538,16.1998 -19.893082,36.9084 -18.539295,57.43573 0.916018,13.88949 5.678295,27.42581 13.111993,39.19429 7.433698,11.76849 17.489439,21.79201 28.913577,29.74476 22.848281,15.90549 50.659511,23.354 78.347791,26.25016 30.58997,3.19967 61.45551,1.18579 92.20918,1.62837 30.75368,0.44259 62.13973,3.52051 90.16987,16.18129 24.0927,10.8823 45.2094,29.05118 57.65043,52.37721 12.44103,23.32603 15.66906,51.85426 6.71209,76.72705 -5.50393,15.28399 -15.3854,28.86559 -27.77598,39.37117 -12.39057,10.50558 -27.23523,17.97613 -42.87145,22.38089 -31.27246,8.80952 -65.00185,5.32568 -96.01046,-4.37173 -38.17302,-11.93796 -73.87828,-33.14851 -113.64863,-37.3928 -19.88517,-2.12214 -40.690716,0.32339 -58.232158,9.92659 -8.770721,4.8016 -16.624333,11.35866 -22.588491,19.38423 -5.964157,8.02557 -10.002837,17.53337 -11.23447,27.45627 -1.322146,10.65214 0.60906,21.59692 4.873107,31.44751 4.264047,9.85059 10.804725,18.63111 18.553207,26.05925 15.496963,14.85628 35.425465,24.15862 55.437325,31.92976 20.01185,7.77114 40.62858,14.33596 59.33702,24.86495 18.70843,10.52899 35.7393,25.66898 43.69961,45.60634 3.7004,9.268 5.32767,19.35707 4.72879,29.3185"
 						></path>
-						<text x="15%" y="92%" className='svg-text'>1y use</text>
+						<text x="15%" y="92%" className='svg-text'>Wireframe</text>
 						<g id="figma" transform="translate(96.12 786.76) scale(.15166)">
 							<path
 							id="path0_fill"
@@ -402,7 +402,6 @@ export default function App() {
 							d="M200 150c0 27.6-22.4 50-50 50s-50-22.4-50-50 22.4-50 50-50 50 22.4 50 50z"
 							></path>
 						</g>
-						<text x="10%" y="68%" className='svg-text'>50% mastered</text>
 						<g id="docker" transform="translate(84.93 657.6) scale(.07484)">
 							<rect
 							id="rect860"
@@ -425,7 +424,7 @@ export default function App() {
 							d="M472 228s-18-17-55-11c-4-29-35-46-35-46s-29 35-8 74c-6 3-16 7-31 7H68c-5 19-5 145 133 145 99 0 173-46 208-130 52 4 63-39 63-39"
 							></path>
 						</g>
-						<text x="50%" y="71%" className='svg-text'>2y use</text>
+						<text x="54%" y="71%" className='svg-text'>APIs</text>
 						<g id="postman" transform="translate(246.68 683.24) scale(.16313)">
 							<path
 							id="path1093"
@@ -535,7 +534,6 @@ export default function App() {
 							></path>
 							</g>
 						</g>
-						<text x="75%" y="80%" className='svg-text'>85% mast.</text>
 						<g id="git" transform="translate(388.84 644.27) scale(.45964)">
 							<path
 							id="path1006"
@@ -543,7 +541,6 @@ export default function App() {
 							d="M92.71 44.4L52.59 4.3a5.92 5.92 0 00-8.37 0l-8.33 8.32L46.46 23.2a7.02 7.02 0 018.9 8.96l10.18 10.19a7.03 7.03 0 017.28 11.62 7.04 7.04 0 01-11.5-7.65l-9.5-9.5v25a7.04 7.04 0 11-5.79-.2V36.36a7.04 7.04 0 01-3.82-9.23L31.8 16.71 4.29 44.22a5.92 5.92 0 000 8.37L44.4 92.71a5.92 5.92 0 008.37 0L92.7 52.78a5.92 5.92 0 000-8.37z"
 							></path>
 						</g>
-						<text x="60%" y="60%" className='svg-text'>75% mast. (bash)</text>
 						<g id="linux" transform="translate(316.56 493.3) scale(.17231)">
 							<path
 							id="path2"
@@ -569,7 +566,7 @@ export default function App() {
 							d="M11.74 6.76c.01.05.1.04.14.06.04.02.07.07.11.07.04 0 .1-.01.11-.06.01-.05-.07-.09-.12-.1-.07-.03-.15-.05-.22-.01-.01 0-.03.03-.02.04zm-.46 0c-.02.05-.1.04-.14.07-.04.01-.07.06-.12.06-.04 0-.1-.01-.11-.06 0-.05.07-.09.13-.1.06-.03.15-.05.21-.01.02 0 .03.03.03.04z"
 							></path>
 						</g>
-						<text x="25%" y="58%" className='svg-text'>30% mastered</text>
+						<text x="28%" y="58%" className='svg-text'>MongoDB</text>
 						<g id="mongodb">
 							<rect
 							id="rect878"
@@ -613,7 +610,7 @@ export default function App() {
 							d="M156.93 513.35s-4.01-2.73-3.77-7.55c.22-4.82 3.05-7.18 3.6-7.61.36-.38.37-.52.4-.9.24.53.2 8 .23 8.88.1 3.39-.2 6.54-.46 7.18z"
 							></path>
 						</g>
-						<text x="20%" y="45%" className='svg-text'>90% (client/server side)</text>
+						<text x="20%" y="45%" className='svg-text'>Client / Server</text>
 						<g id="myjavascript" transform="translate(34.46 391.09) scale(.06407)">
 							<path id="rect1027" fill="#f7df1e" d="M0 0h630v630H0z"></path>
 							<path
@@ -621,7 +618,6 @@ export default function App() {
 							d="M423.2 492.19c12.69 20.72 29.2 35.95 58.4 35.95 24.53 0 40.2-12.26 40.2-29.2 0-20.3-16.1-27.49-43.1-39.3l-14.8-6.35c-42.72-18.2-71.1-41-71.1-89.2 0-44.4 33.83-78.2 86.7-78.2 37.64 0 64.7 13.1 84.2 47.4l-46.1 29.6c-10.15-18.2-21.1-25.37-38.1-25.37-17.34 0-28.33 11-28.33 25.37 0 17.76 11 24.95 36.4 35.95l14.8 6.34c50.3 21.57 78.7 43.56 78.7 93 0 53.3-41.87 82.5-98.1 82.5-54.98 0-90.5-26.2-107.88-60.54zm-209.13 5.13c9.3 16.5 17.76 30.45 38.1 30.45 19.45 0 31.72-7.61 31.72-37.2v-201.3h59.2v202.1c0 61.3-35.94 89.2-88.4 89.2-47.4 0-74.85-24.53-88.81-54.08z"
 							></path>
 						</g>
-						<text x="18%" y="29%" className='svg-text'>70% mast.</text>
 						<g id="python"
 							fillOpacity="1"
 							fillRule="nonzero"
@@ -686,7 +682,7 @@ export default function App() {
 							style={{ marker: "none" }}
 							></path>
 						</g>
-						<text x="60%" y="30%" className='svg-text'>70% mast.</text>
+						<text x="56%" y="39%" className='svg-text'>Vector Graphics</text>
 						<g id="myinkscape" transform="translate(312.03 298.08) scale(.41403)">
 							<rect
 							id="rect867"
@@ -704,7 +700,6 @@ export default function App() {
 							d="M48.37 7.56a9.58 9.58 0 00-6.93 2.8l-30.7 31.5C-.87 53.5 18.28 52.52 25.2 56.93c3.21 2.1-10.27 4.78-7.52 7.54 2.68 2.76 16.17 5.3 18.86 8 2.68 2.75-5.44 5.66-2.76 8.42 2.6 2.76 8.87.15 9.98 6.42.82 4.63 11.48 2.32 16.25-1.64 2.97-2.54-5.14-2.54-2.46-5.3 6.71-6.8 12.67-3.05 15.13-9.33 1.34-3.36-10.13-5.75-7.08-7.92 7.31-5.14 34.13-7.76 21.76-20.15L55.53 10.36a10.43 10.43 0 00-7.16-2.8zm.27 2.99c1.84.01 3.68.7 5.02 2.03l12.14 12.4c1.13 1.12 1.13 3.44.45 4.1l-6.03-4.91-1.2 7.23-4.98-2.69-8.13 5.15-2.68-10.82-4.32 9.4-10.8-.07c-2.1 0-1.8-2.16.36-4.33C32.72 23.34 41 15.36 43.61 12.6a6.88 6.88 0 015.02-2.03zm33.93 56.72c-2.58.09-5.2 1.38-5.88 3.77 0 1.56 12.15 2.46 11.48-.38-.49-2.39-3.02-3.49-5.6-3.4v.01zm-53.38 6.78c-3.5.2-7.27 2.76-4.29 5.27 2.75 2.39 6.93-.52 8.27-3.88-.83-1.1-2.39-1.48-3.98-1.39zm46.01.27c-3.43 3.13.6 6.42 3.95 4.25.9-.6-.08-3.5-3.95-4.25z"
 							></path>
 						</g>
-						<text x="60%" y="15%" className='svg-text'>80% mastered</text>
 						<g id="photoshop"
 							fillOpacity="1"
 							strokeDasharray="none"
@@ -730,7 +725,7 @@ export default function App() {
 							style={{ mixBlendMode: "normal" }}
 							></path>
 						</g>
-						<text x="8%" y="22%" className='svg-text'>English C1 level</text>
+						<text x="24%" y="22%" className='svg-text'>English</text>
 						<g id="myenglish" transform="matrix(.42527 0 0 .33797 115.14 136.46)">
 							<path id="rect1269" fill="#dc4437" d="M0 0h130v13.3H0z"></path>
 							<path id="rect1271" fill="#dc4437" d="M0 26.7h130V40H0z"></path>
@@ -788,17 +783,37 @@ export default function App() {
 			</Flex>
 
 			<Flex w="100vw" className='section6' flexDirection="column" alignItems="center">
-				<Text fontWeight="extrabold" textAlign="center" w={{base: "70%", md: "100%"}} fontSize={{base:"30px", lg:"46px"}} mt={{base:"50px", lg:"60px"}} mb="3vh" >What makes my brain 🤮?</Text>
 
 				<List w="90%" m="15% 0 100px" color="#ffd76e" fontSize="22px" borderRadius="15px" borderLeft="2px solid rgba(88,88,88,.9)" borderTop="2px solid rgba(88,88,88,.9)" padding="3%" borderColor="hsla(0,0%,100%,.2) rgba(88,88,88,.9) rgba(88,88,88,.9) hsla(0,0%,100%,.2)" borderStyle="solid" borderWidth="1px 2px 2px 1px" boxShadow="5px 5px 30px rgba(0,0,0,.2)" backdropFilter="blur(20px)" background="linear-gradient(329deg,hsla(0,0%,46%,.22),hsla(0,0%,74%,.13))">
-					<ListItem mb="20px"> 😷 PHP or anything made with it <Text textStyle="notes">Laravel, Wordpress, etc. I prefer async Python or Nodejs for backend</Text></ListItem>
-					<ListItem mb="20px"> 🥱 Angular, Vue <Text textStyle="notes">I favor React.js for web projects</Text></ListItem>
-					<ListItem mb="20px"> 🤕 Java, Kotlin, Swift, React Native, Ionic <Text textStyle="notes">Mobile development is not my thing</Text></ListItem>
-					<ListItem mb="20px"> 💀 jQuery <Text textStyle="notes">Too old and is not security-wise to use anymore</Text></ListItem>
-					<ListItem mb="20px"> 🤧 C/C++, C# <Text textStyle="notes">Soon I will include Rust on my Loved List, which is the new best for low-level development. Also, C# is tight close to Microsoft burdensome tooling</Text></ListItem>
+					<ListItem mb="20px">
+						<Text textStyle="lang">Python 🐍</Text>
+						I have been in love with python since 2013 for its simplicity and its vast community.
+						<Text textStyle="tools">FastAPI, Django, Django Rest F, PyTest</Text>
+						<Text textStyle="notes">4y exp/80% mastered</Text>
+					</ListItem>
+					<ListItem mb="20px">
+						<Text textStyle="lang">Javascript 🥰</Text>
+						Node.js was my first tool to develop async coding. I have learned React and Node.js the beauty of Functional Programming.
+						<Text textStyle="tools">React, Jest, Next.js, Node.js</Text>
+						<Text textStyle="notes">7y exp/90% mastered</Text>
+					</ListItem>
+					<ListItem mb="20px">
+						<Text textStyle="lang">Typescript 🤝</Text>
+						The defacto future of Js.
+						<Text textStyle="tools">Typescript, Nest.js</Text>
+						<Text textStyle="notes">1y exp/50% mastered</Text>
+					</ListItem>
+					<ListItem mb="20px">
+						<Text textStyle="lang">DevOps 😶‍🌫️</Text>
+						Terminals are among my favorite toys.
+						<Text textStyle="tools">Docker, Linux, Git, Bash, Cronjob, Nginx</Text>
+						<Text textStyle="notes">2y exp/60% mastered</Text>
+					</ListItem>
+					<ListItem mb="20px">
+						<Text textStyle="lang">Rust 🫠</Text>
+						It is on my bucket list of tools to learn in the coming months.
+					</ListItem>
 				</List>
-
-				<Text fontWeight="regular" w="90%" mb="100px" fontSize="18px" textAlign="justify" border="2px solid white" p="2%"><b>Why?</b> I prefer not to work with some tools, so that I can focus on getting better with the ones that I think have more potential, and achieve more expertise with them.</Text>
 
 				<Text textAlign="center" mb="8px">If you feel interested, we can have a chat. Go up to get my contact info</Text>
 				<Button onClick={scroll2top} mb="30px" bg='#d8c892' size="lg" variant='solid' aria-label='Scroll page to the top' alt="Scroll to Beginning" >

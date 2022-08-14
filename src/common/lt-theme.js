@@ -14,6 +14,14 @@ const lt_theme = extendTheme({
 			display: "block",
 			color: "#fff",
 			fontWeight: "400",
+		},
+		lang: {
+			color: "#d53333",
+			fontWeight: "bold"
+		},
+		tools: {
+			fontSize: '18px',
+			color: "#bbbbbb"
 		}
 	},
 	styles: {
