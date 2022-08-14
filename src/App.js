@@ -805,7 +805,7 @@ export default function App() {
 					</ListItem>
 					<ListItem mb="20px">
 						<Text textStyle="lang">Database 📚</Text>
-						Used as as Developer and also for DevOps tasks to check data integrity and Grafana/Prometheus queries.
+						Used for backend development and for DevOps tasks to check data integrity and Grafana/Prometheus queries.
 						<Text textStyle="tools">PostgresSQL, MySQL, MongoDB</Text>
 						<Text textStyle="notes">4y exp/60% mastered</Text>
 					</ListItem>
