@@ -197,7 +197,7 @@ export default function App() {
 						fontWeight="normal"
 						textAlign="center"
 					>
-						SSr. Software Developer
+						Full Stack Developer
 					</Text>
 				</Box>
 
