@@ -284,7 +284,7 @@ export default function App() {
 							width="70%"
 							textAlign="center"
 						>
-							My brain as a Fullstack Developer
+							My brain as a Full Stack Developer
 						</Text>
 						<Image ref={IMG_BRAIN_L} alt='Left brain hemisphere 3D model' width={{base: "200px", lg: "300px"}} src='assets/images/left_brain.webp' />
 					</Flex>
