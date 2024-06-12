@@ -1,22 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Luis Tena" />
-    <meta name="description" content="Luis Tena - Full Stack Developer" />
     <meta
       name="keywords"
-      content="Luis Tena, Full Stack Developer, Portfolio, Is a dev, Python, JavaScript, Remote"
+      content="Luis Tena, Back End Developer, Full Stack Developer, Portfolio, Is a dev, Python, JavaScript, TypeScript, Remote"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>Luis Tena - Full Stack Developer</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+    <meta name="description" content="Luis Tena's Portfolio | Back-End Developer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Luis Tena | Back-End Developer</title>
+</head>
+<body class="text-white">
+    <div id="container" class="flex-col">
+        <section id="slide" class="z-50 flex justify-center items-center absolute t-0 l-0 bg-[#111111] h-screen w-screen">
+            <img id="slideLogo" src="assets/images/lt_logo.svg" class="w-20 h-20 md:w-36 md:h-36" alt="Luis Tena's Logo">
+            <div id="slideTextContainer" class="overflow-hidden">
+                <h1 id="slideText" class="font-bolder text-3xl md:text-5xl font-highliht">Luis Tena</h1>
+            </div>
+        </section>
+
+        <section id="presentation" class="w-screen h-screen justify-center flex flex-col lg:flex-row items-center">
+            <div class="flex flex-col">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bolder text-center">
+                    Hola, I am
+                    <span class="block bg-gradient-to-r from-[#D8C892] to-green-600 bg-clip-text text-transparent text-3xl font-highliht md:inline md:text-5xl lg:block lg:text-7xl">
+                        Luis Tena
+                    </span>
+                </h2>
+                <p class="text-center text-gray-400 text-lg md:text-2xl lg:text-2xl">
+                    Back-End Developer
+                    <br />
+                    I ❤️ terminals and simple code
+                </p>
+            </div>
+
+            <div>
+                <div class="w-screen sm:w-[60vw] lg:w-[500px] h-[70vh] flex items-center justify-center">
+                    <img src="assets/images/luis_tena_2022.jpg" class="w-[80%] h-[80%] rounded-lg object-fill" alt="A selfie of Luis Tena">
+                </div>
+                <div class="flex justify-evenly mb-5">
+                    <a href="https://x.com/dev_luist" aria-label="My X account">
+                        <img src="assets/images/logo_twitter.svg" alt="X Logo" class="w-5 h-5 md:w-7 md:h-7">
+                    </a>
+
+                    <a href="https://t.me/dev_luist" aria-label="My Telegram account">
+                        <img src="assets/images/logo_telegram.svg" alt="Telegram Logo" class="w-5 h-5 md:w-7 md:h-7">
+                    </a>
+
+                    <a href="https://linkedin.com/in/luistena" aria-label="My LinkedIn account">
+                        <img src="assets/images/logo_linkedin.svg" alt="LinkedIn Logo" class="w-5 h-5 md:w-7 md:h-7">
+                    </a>
+
+                    <a href="https://github.com/devluist" aria-label="My GitHub account">
+                        <img src="assets/images/logo_github.svg" alt="GitHub Logo" class="w-5 h-5 md:w-7 md:h-7">
+                    </a>
+
+                    <a href="mailto:des.luistena@gmail.com" aria-label="My Email account" alt="des.luistena@gmail.com">
+                        <img src="assets/images/icon_email.svg" alt="Email Icon" class="w-5 h-5 md:w-7 md:h-7">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume-format" class="h-[90vh] flex flex-col items-center">
+            <h2 class="supertitle text-green-700 text-4xl md:text-5xl leading-10 font-extrabold flex w-3/4 mt-10">
+                Resume's Presentation
+            </h2>
+            <h4 class="flex w-3/4 text-xl md:text-2xl text-[#D8C892] font-semibold">
+                faster to read first
+            </h4>
+            <div class="mt-[12vh] flex flex-col items-center">
+                <a href="assets/Luis_Tena-Back_End_Developer_Resume.pdf" target="_blank" class="bg-green-900 hover:bg-[#D8C892] hover:text-black text-2xl px-2 py-5 border-2 border-b-0 border-black w-[90vw] lg:text-center lg:w-[40vw]">
+                    Download PDF
+                </a>
+                <a href="#" target="_blank" class="bg-green-900 hover:bg-[#D8C892] hover:text-black text-2xl px-2 py-5 border-2 border-b-0 border-black w-[90vw] lg:text-center lg:w-[40vw]">
+                    Video (coming soon)
+                </a>
+                <a href="#projects" onclick="easyScroll('projects')" class="bg-green-900 hover:bg-[#D8C892] hover:text-black text-2xl px-2 py-5 border-2 border-black w-[90vw] lg:text-center lg:w-[40vw]">
+                    Continue scrolling below...
+                </a>
+        </section>
+
+        <section id="projects" class="flex flex-col items-center">
+            <h2 class="supertitle text-green-700 text-4xl md:text-5xl leading-10 font-extrabold flex w-3/4 mt-10">
+                Projects
+            </h2>
+            <h4 class="flex w-3/4 text-xl md:text-2xl text-[#D8C892] font-semibold">
+                most recent first
+            </h4>
+            <div class="flex flex-col items-center mt-10">
+
+                <div class="glassy-container w-[70vw] lg:w-2/4 flex flex-col lg:flex-row items-start my-10">
+                    <img width="400px" height="200px" src="assets/images/projects/acceleratorapp.jpg" class="mr-4" />
+                    <div class="flex flex-col items-start">
+                        <h3 class="text-3xl md:text-4xl text-center font-bold text-green-500">Accelerator App</h3>
+                        <p class="text-lg">I developed an admin panel to provide access to the main product to the staff. Assisted with an internal metrics ETL process that collected data from MongoDB for reports</p>
+                        <div class="mt-5">
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">GraphQL</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">Express.js</span>
+                            <span class="tag">Nest.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glassy-container w-[70vw] lg:w-2/4 flex flex-col lg:flex-row items-start my-10">
+                    <img width="400px" height="200px" src="assets/images/projects/dondemand.jpg" class="mr-4" />
+                    <div class="flex flex-col items-start">
+                        <h3 class="text-3xl md:text-4xl text-center font-bold text-green-500">Don Demand</h3>
+                        <p class="text-lg">I co-developed an Admin Panel using React for this delivery app. Also, I was in charge of the setup, deployments, provision, and monitoring of servers on Digital Ocean</p>
+                        <div class="mt-5">
+                            <span class="tag">React</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Prometheus</span>
+                            <span class="tag">Grafana</span>
+                            <span class="tag">Sentry</span>
+                            <span class="tag">Bash/Linux</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glassy-container w-[70vw] lg:w-2/4 flex flex-col lg:flex-row items-start my-10">
+                    <img width="400px" height="200px" src="assets/images/projects/softour.jpg" class="mr-4" />
+                    <div class="flex flex-col items-start">
+                        <h3 class="text-3xl md:text-4xl text-center font-bold text-green-500">Softour</h3>
+                        <p class="text-lg">Tourism web app where users find accommodations, transport, and restaurants by location</p>
+                        <div class="mt-5">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Express.js</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glassy-container w-[70vw] lg:w-2/4 flex flex-col lg:flex-row items-start my-10">
+                    <img width="400px" height="200px" src="assets/images/projects/hire-in.jpg" class="mr-4" />
+                    <div class="flex flex-col items-start">
+                        <h3 class="text-3xl md:text-4xl text-center font-bold text-green-500">Hire in Venezuela</h3>
+                        <p class="text-lg">Web app marketplace for Venezuelan freelancers made in 2014</p>
+                        <div class="mt-5">
+                            <span class="tag">Django</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Open Shift</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="technologies" class="flex flex-col items-center text-justify text-lg">
+            <h2 class="supertitle text-green-700 text-4xl md:text-5xl leading-10 font-extrabold my-[8vh] flex w-3/4">
+                Technologies
+            </h2>
+
+            <div class="flex flex-col w-3/4">
+                <div class="glassy-container mb-10">
+                    <p class="text-3xl text-green-500 mb-2 font-bold">Python 🐍 / Mojo 🔥</p>
+                    <p class="mb-2">
+                        I started my journey as a developer in 2013. I needed to pick a language in which to code my first project so that I could learn how to make production-ready web apps. After researching the most famous programming languages at that time, I fell in love with the easiness of coding in Python,  so I decided to go with it (using Django) for my Hire In Venezuela web app. After two years of maintenance, I could not afford to continue operations, so I decided to finish college.
+                    </p>
+                    <p class="mb-2">
+                        I also worked for a Mexican company as a remote Back-End Developer in 2022 using FastAPI. And, I made a few entrepreneurial attempts also with FastAPI before that.
+                    </p>
+                    <p class="mb-2">
+                        Currently, I am interested in Mojo (a programming language) to increase performance. Also, I am learning about Flet, to build mobile apps using Python syntax and take advantage of Flutter efficient components underneath it using the Python syntax everywhere.
+                    </p>
+                    <p class="text-[#d8c892] font-bold">Mojo, Django, FastAPI, Django Ninja, Django Rest Framework</p>
+                    <p class="text-[#42ad91] font-bold">4y experience</p>
+                </div>
+
+                <div class="glassy-container mb-10">
+                    <p class="text-3xl text-green-500 mb-2 font-bold">JavaScript / TypeScript</p>
+                    <p class="mb-2">
+                        There was a lot of hype in 2016 around a new technology in JavaScript called Nodejs, which allowed the use of async and functional code on the server side, so JavaScript (Express.js) was the next language to learn. I used this framework to develop Softour for around 2 years, this was a tourism web app.
+                    </p>
+                    <p class="mb-2">
+                        Afterwards, I started a job as a Front-End Developer, where I continued honing my skills in JavaScript in 2018 for 3 years.
+                    </p>
+                    <p class="mb-2">
+                        Later on, I also worked at a company from Portugal, as a remote TypeScript Back-End Developer for 9 months in 2023.
+                    </p>
+                    <p class="text-[#d8c892] font-bold">Express.js, React, Nest.js, Nodejs,</p>
+                    <p class="text-[#42ad91] font-bold">8y experience</p>
+                </div>
+
+                <div class="glassy-container mb-10">
+                    <p class="text-3xl text-green-500 mb-2 font-bold">Databases 📚</p>
+                    <p class="mb-2">
+                        I use it them for Back-End development in programming and for DevOps administration tasks to check data integrity and/or Grafana queries.
+                    </p>
+                    <p class="text-[#d8c892] font-bold">PostgreSQL, MySQL, MongoDB</p>
+                    <p class="text-[#42ad91] font-bold">10y experience</p>
+                </div>
+
+                <div class="glassy-container mb-10">
+                    <p class="text-3xl text-green-500 mb-2 font-bold">DevOps, Docker, Pulumi/Nitric ☁️</p>
+                    <p class="mb-2">
+                        At my first job, my boss asked me to substitute another DevOps developer who was leaving the company. I had to learn how to manage servers, deploy apps, and monitor them. I have worked with Digital Ocean, Open Shift, and AWS. Deployments using GitHub CI and Docker. I love terminals more than GUIs.
+                    </p>
+                    <p class="mb-2">
+                        Currently, I am interested in Pulumi/Nitric to do deployments using code instead of plain files, and is on my list to learn more about it.
+                    </p>
+                    <p class="text-[#d8c892] font-bold">Git, Docker, Linux, Nginx, LB, GitHub CI, Bash</p>
+                    <p class="text-[#42ad91] font-bold">3y experience/70% mastered</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex justify-end">
+            <button onclick="easyScroll('presentation')" class="mb-10 mr-5 bg-[#D8C892] hover:bg-green-700 hover:text-white p-2 text-2xl text-black font-bold rounded-md" alt="Contact me">
+                <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#000000"><path d="m280-400 200-201 200 201H280Z"/></svg>
+            </button>
+        </section>
+    </div>
+</body>
+
+<script defer type="text/javascript">
+
+    function easyScroll(section) {
+        const sectionScrolledInto = document.getElementById(section);
+        sectionScrolledInto.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    const slideTextContainer = document.getElementById('slideTextContainer');
+    const slideLogo = document.getElementById('slideLogo');
+    const slideText = document.getElementById('slideText');
+    const slide = document.getElementById('slide');
+
+    slideLogo.style.animation = 'animation1 2s linear';
+    slideLogo.addEventListener('animationend', () => {
+        slideTextContainer.style.animation = 'animation2 0 linear';
+    });
+    slideTextContainer.addEventListener('animationend', () => {
+        slideText.style.animation = 'animation3 2s forwards linear';
+    });
+    slideText.addEventListener('animationend', () => {
+        slide.style.animation = 'animation4 2s forwards linear';
+        slideLogo.style.animation = 'animation4 2s forwards linear';
+        slideText.style.animation = 'animation4 2s forwards linear';
+    });
+</script>
 </html>
