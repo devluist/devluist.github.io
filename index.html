@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="assets/images/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Luis Tena" />
+    <meta
+      name="keywords"
+      content="Luis Tena, Back End Developer, Full Stack Developer, Portfolio, Is a dev, Python, Django, FastAPI, Mojo, JavaScript, TypeScript, Remote"
+    />
+    <meta name="description" content="Luis Tena's Portfolio | Back-End Developer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Luis Tena | Back-End Developer</title>
+</head>
+<body class="text-white">
+    <div id="container" class="flex-col">
+        <section id="slide" class="z-50 flex justify-center items-center absolute t-0 l-0 bg-[#111111] h-screen w-screen">
+            <img id="slideLogo" src="assets/images/lt_logo.svg" class="w-20 h-20 md:w-36 md:h-36" alt="Luis Tena's Logo">
+            <div id="slideTextContainer" class="overflow-hidden">
+                <h1 id="slideText" class="font-bolder text-3xl md:text-5xl font-highliht">Luis Tena</h1>
+            </div>
+        </section>
+
+        <section id="presentation" class="w-screen h-screen justify-center flex flex-col-reverse lg:flex-row items-center">
+            <div class="flex flex-col">
+                <h2 class="text-3xl md:text-5xl mt-3 md:mt-auto lg:text-7xl font-bolder text-center">
+                    Hola, I am
+                    <span class="block bg-gradient-to-r from-[#D8C892] to-green-600 bg-clip-text text-transparent text-3xl font-highliht md:inline md:text-5xl lg:block lg:text-7xl">
+                        Luis Tena
+                    </span>
+                </h2>
+                <p class="text-center text-gray-400 text-lg md:text-2xl lg:text-3xl">
+                    Python/Mojo & TypeScript
+                    <br />
+                    Back-End Developer
+                    <br />
+                    I ❤️ terminals and simple code
+                </p>
+                <div id="contact-me-social" class="flex justify-evenly my-3 md:my-10">
+                    <a href="https://linkedin.com/in/luistena" target="_blank" aria-label="My LinkedIn account">
+                        <img src="assets/images/logo_linkedin.svg" alt="LinkedIn Logo" title="My LinkedIn account" class="w-5 h-5 md:w-10 md:h-10">
+                    </a>
+
+                    <a href="https://github.com/devluist" target="_blank" aria-label="My GitHub account">
+                        <img src="assets/images/logo_github.svg" alt="GitHub Logo" title="My GitHub account" class="w-5 h-5 md:w-10 md:h-10">
+                    </a>
+
+                    <a href="mailto:des.luistena@gmail.com" aria-label="My Email account" alt="des.luistena@gmail.com">
+                        <img src="assets/images/icon_email.svg" alt="Email Icon" title="My Email account" class="w-5 h-5 md:w-10 md:h-10">
+                    </a>
+
+                    <a href="https://www.fiverr.com/dev_lt" target="_blank" aria-label="Hire me on fiverr">
+                        <img src="assets/images/logo_fiverr.svg" alt="Fiverr Logo" title="Hire me on fiverr" class="w-5 h-5 md:w-10 md:h-10">
+                    </a>
+
+                    <a href="https://www.upwork.com/freelancers/~014056fdea429d156c?mp_source=share" target="_blank" aria-label="Hire me on Upwork" alt="Hire me on Upwork">
+                        <img src="assets/images/logo_upwork.svg" alt="Upwork Logo" title="Hire me on Upwork" class="w-5 h-5 md:w-10 md:h-10">
+                    </a>
+                </div>
+                <a id="btn-download" href="assets/Luis_Tena-Back_End_Developer.pdf" target="_blank" class="bg-green-900 hover:bg-[#D8C892] hover:text-black text-lg md:text-2xl py-2 md:py-5 md:my-5 border-2 border-black text-center">
+                    Download Resume
+                </a>
+            </div>
+
+            <!-- <div> -->
+                <div class="w-screen sm:w-[60vw] lg:w-[500px] md:h-[60vh] flex items-center justify-center">
+                    <img src="assets/images/luis_tena_2022.jpg" class="w-[80%] h-[80%] rounded-lg object-fill" alt="A selfie of Luis Tena">
+                </div>
+            <!-- </div> -->
+        </section>
+
+        <section id="projects" class="flex flex-col items-center">
+            <h2 class="supertitle text-green-700 text-4xl md:text-7xl leading-10 font-extrabold flex w-3/4 mt-10">
+                Past Jobs
+            </h2>
+            <h4 class="flex w-3/4 text-xl md:text-3xl text-[#D8C892] font-semibold">
+                most recent first
+            </h4>
+            <div class="flex flex-col gap-4 flex-wrap items-center mt-10  w-11/12 md:w-[70vw]">
+
+                <div class="glassy-container flex flex-col min-w-full lg:flex-row lg:w-2/4 items-start">
+                    <img width="300px" height="200px" src="assets/images/projects/vitrinapp.jpg" class="mr-4" />
+                    <div class="flex flex-col items-start">
+                        <h3 class="text-3xl md:text-4xl text-center font-bold text-green-500"><a class="hover:underline hover:text-[#D8C892]" target="_blank" href="https://vitrinapp.co">Vitrinapp</a></h3>
+                        <p class="text-lg">This is a new entreprenurial project I'm developing (since second half of 2024). It's a mobile app that allows users to view comics in a mobile format and susbscribe to artists. Artists earn money by sharing their works on the plataform. I made everything for this MVP, from the requirements gathering, define the UX and UI components to differentiate us from competitors, database schema definition, learning Flutter while developing the client app, cloud deployment using Pulumi. </p>
+                        <div class="mt-5">
+                            <span class="tag">Django</span>
+                            <span class="tag">Postgres</span>
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">Pulumi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glassy-container flex flex-col min-w-full lg:flex-row lg:w-2/4 items-start">
+                    <img width="300px" height="200px" src="assets/images/projects/acceleratorapp.jpg" class="mr-4" />
+                    <div class="flex flex-col items-start">
+                        <h3 class="text-3xl md:text-4xl text-center font-bold text-green-500">Accelerator App</h3>
+                        <p class="text-lg">I developed an admin panel to provide access to the main product to the staff. Assisted with an internal metrics ETL process that collected data from MongoDB for reports</p>
+                        <div class="mt-5">
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">GraphQL</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">AWS</span>
+                            <span class="tag">Express.js</span>
+                            <span class="tag">Nest.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glassy-container flex flex-col min-w-full lg:flex-row lg:w-2/4 items-start">
+                    <img width="300px" height="200px" src="assets/images/projects/dondemand.jpg" class="mr-4" />
+                    <div class="flex flex-col items-start">
+                        <h3 class="text-3xl md:text-4xl text-center font-bold text-green-500">Don Demand</h3>
+                        <p class="text-lg">I co-developed an Admin Panel using React for this delivery app. Also, I was in charge of the setup, deployments, provision, and monitoring of servers on Digital Ocean</p>
+                        <div class="mt-5">
+                            <span class="tag">React</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Prometheus</span>
+                            <span class="tag">Grafana</span>
+                            <span class="tag">Sentry</span>
+                            <span class="tag">Bash/Linux</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glassy-container flex flex-col min-w-full lg:flex-row lg:w-2/4 items-start">
+                    <img width="300px" height="200px" src="assets/images/projects/softour.jpg" class="mr-4" />
+                    <div class="flex flex-col items-start">
+                        <h3 class="text-3xl md:text-4xl text-center font-bold text-green-500">Softour</h3>
+                        <p class="text-lg">Tourism web app where users find accommodations, transport, and restaurants by location</p>
+                        <div class="mt-5">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Express.js</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glassy-container flex flex-col min-w-full lg:flex-row lg:w-2/4 items-start">
+                    <img width="300px" height="200px" src="assets/images/projects/hire-in.jpg" class="mr-4" />
+                    <div class="flex flex-col items-start">
+                        <h3 class="text-3xl md:text-4xl text-center font-bold text-green-500">Hire in Venezuela</h3>
+                        <p class="text-lg">Web app marketplace for Venezuelan freelancers made in 2014</p>
+                        <div class="mt-5">
+                            <span class="tag">Django</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Open Shift</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="technologies" class="flex flex-col items-center text-justify text-lg">
+            <h2 class="supertitle text-green-700 text-4xl md:text-7xl leading-10 font-extrabold my-[8vh] flex w-3/4">
+                Skills
+            </h2>
+
+            <div class="flex flex-col w-11/12 md:w-3/4">
+                <div class="glassy-container mb-10">
+                    <p class="text-3xl text-green-500 mb-2 font-bold">Python 🐍 / Mojo 🔥</p>
+                    <p class="mb-2">
+                        I started my journey as a developer in 2013. I needed to pick a language in which to code my first project so that I could learn how to make production-ready web apps. After researching the most famous programming languages at that time, I fell in love with the easiness of coding in Python, so I decided to go with it (using Django) for my Hire In Venezuela web app. After two years of maintenance, I could not afford to continue operations, so I decided to finish college instead.
+                    </p>
+                    <p class="mb-2">
+                        I also worked for a Mexican company as a remote Back-End Developer in 2022 using FastAPI.
+                    </p>
+                    <p class="mb-2">
+                        Currently, I'm developing my new startup Vitrinapp using Django and I'm interested in Mojo (a programming language) to increase performance in web apps.
+                    </p>
+                    <p class="text-[#d8c892] font-bold">Mojo, Django, FastAPI, Django Ninja, Django Rest Framework</p>
+                    <p class="text-[#42ad91] font-bold">6y experience</p>
+                </div>
+
+                <div class="glassy-container mb-10">
+                    <p class="text-3xl text-green-500 mb-2 font-bold">JavaScript / TypeScript</p>
+                    <p class="mb-2">
+                        There was a lot of hype in 2016 around a new technology in JavaScript called Nodejs, which allowed the use of async code on the server side, so JavaScript was the next language to learn. I used Express.js framework to develop Softour for around 2 years, this was a tourism web app.
+                    </p>
+                    <p class="mb-2">
+                        Afterwards, I started a job as a Front-End Developer, where I continued honing my skills in JavaScript in 2018 for 3 years. I used for an internal product called Don Demand (later renamed as Zupper) and for the development of web apps to other clients of the company.
+                    </p>
+                    <p class="mb-2">
+                        Later on, I also worked at a company from Portugal, as a remote TypeScript Back-End Developer for 9 months in 2023.
+                    </p>
+                    <p class="text-[#d8c892] font-bold">Express.js, React, Nest.js, Nodejs</p>
+                    <p class="text-[#42ad91] font-bold">7y experience</p>
+                </div>
+
+                <div class="glassy-container mb-10">
+                    <p class="text-3xl text-green-500 mb-2 font-bold">Databases 📚</p>
+                    <p class="mb-2">
+                        I have used them for back-end development since 2014, for DevOps administration tasks (to check data integrity) and for Grafana queries. Also, I have used NoSQL database (MongoDB) for development during my work with a team in Portugal and with the development of Softour web app.
+                    </p>
+                    <p class="text-[#d8c892] font-bold">PostgreSQL, MySQL, MongoDB</p>
+                    <p class="text-[#42ad91] font-bold">7y experience</p>
+                </div>
+
+                <div class="glassy-container mb-10">
+                    <p class="text-3xl text-green-500 mb-2 font-bold">DevOps, Docker, Pulumi, Devspace ☁️</p>
+                    <p class="mb-2">
+                        At my first job, my boss asked me to substitute another DevOps developer who was leaving the company. I had to learn how to manage servers, deploy apps, and monitor them. I have worked with Digital Ocean, Open Shift, and AWS. I have made manual deployments with bash commands and SSH but also using GitHub CI and Docker. And monitoring with Grafana and Datadog, but not an expert in this area to be honest, just enough to get things done. I love terminals more than GUIs.
+                    </p>
+                    <p class="mb-2">
+                        Currently, I'm using Pulumi for deployment in AWS. And I'm instered in Devspace. The idea is to do deployments using code instead of plain files, and I'm still learning about them.
+                    </p>
+                    <p class="text-[#d8c892] font-bold">Git, Docker, Pulumi, Linux, Nginx, LB, GitHub CI, Bash</p>
+                    <p class="text-[#42ad91] font-bold">3y experience/70% mastered</p>
+                </div>
+
+                <div class="glassy-container mb-10">
+                    <p class="text-3xl text-green-500 mb-2 font-bold">WASI, Web Components, WebAssembly, HTMX, Alpine.js, Tailwind CSS</p>
+                    <p class="mb-2">
+                        I am interested in WebAssembly and mostly WASI. I am following closely about this trend using Python, and maybe Mojo in the future.
+                    </p>
+                    <p class="mb-2">
+                        I enjoy the backend server-side logic, automation tasks, server deployments and configuration, and other related tasks, so I usually avoid frontend or UI tasks. But when I do have to do frontend, I use the combo HTMX + Tailwind CSS + Alpine.js. It feels more ergonomic to the backend code and efficient than using React and all its JavaScript stack for most simple and moderately complex UIs. I also follow the trend arround Web Components for UI development.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5 flex flex-col justify-center items-center bg-green-900 text-white p-2 text-2xl font-bold rounded-t-3xl">
+            <p class="pt-5 px-3 md:px-0">Do you need my skills for a job? I overlap with US time zones <span class="text-[#d8c892]">Let's talk! 👇</span></p>
+            <div class="flex justify-evenly my-5 md:my-10 mb-10 w-full" alt="Contact me">
+                <a href="https://linkedin.com/in/luistena" target="_blank" aria-label="My LinkedIn account">
+                    <img src="assets/images/logo_linkedin.svg" alt="LinkedIn Logo" title="My LinkedIn account" class="w-5 h-5 md:w-10 md:h-10">
+                </a>
+
+                <a href="https://github.com/devluist" target="_blank" aria-label="My GitHub account">
+                    <img src="assets/images/logo_github.svg" alt="GitHub Logo" title="My GitHub account" class="w-5 h-5 md:w-10 md:h-10">
+                </a>
+
+                <a href="mailto:des.luistena@gmail.com" alt="des.luistena@gmail.com" aria-label="My Email account">
+                    <img src="assets/images/icon_email.svg" alt="Email Icon" title="My Email account" class="w-5 h-5 md:w-10 md:h-10">
+                </a>
+
+                <a href="https://www.fiverr.com/dev_lt" target="_blank" aria-label="Hire me on fiverr">
+                    <img src="assets/images/logo_fiverr.svg" alt="Fiverr Logo" title="Hire me on fiverr" class="w-5 h-5 md:w-10 md:h-10">
+                </a>
+
+                <a href="https://www.upwork.com/freelancers/~014056fdea429d156c?mp_source=share" target="_blank" aria-label="Hire me on Upwork">
+                    <img src="assets/images/logo_upwork.svg" alt="Upwork Logo" title="Hire me on Upwork" class="w-5 h-5 md:w-10 md:h-10">
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+
+<script defer type="text/javascript">
+
+    function easyScroll(section) {
+        const sectionScrolledInto = document.getElementById(section);
+        sectionScrolledInto.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    const slideTextContainer = document.getElementById('slideTextContainer');
+    const slideLogo = document.getElementById('slideLogo');
+    const slideText = document.getElementById('slideText');
+    const slide = document.getElementById('slide');
+
+    slideLogo.style.animation = 'animation1 2s linear';
+    slideLogo.addEventListener('animationend', () => {
+        slideTextContainer.style.animation = 'animation2 0 linear';
+    });
+    slideTextContainer.addEventListener('animationend', () => {
+        slideText.style.animation = 'animation3 2s forwards linear';
+    });
+    slideText.addEventListener('animationend', () => {
+        slide.style.animation = 'animation4 2s forwards linear';
+        slideLogo.style.animation = 'animation4 2s forwards linear';
+        slideText.style.animation = 'animation4 2s forwards linear';
+    });
+</script>
+</html>
