@@ -1,0 +1,16 @@
+
+## Build
+
+pnpm run build
+
+
+## Deploy to gh-pages branch
+
+pnpm run deploy
+
+@nestjs/cli 9.2.0
+@strapi/typescript-utils 4.9.2
+@vscode/vsce 2.24.0
+gatsby-cli 5.8.0
+nx 16.6.0
+strapi 3.6.11

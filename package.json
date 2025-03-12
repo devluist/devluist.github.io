@@ -1,49 +1,14 @@
 {
   "homepage": "https://devluist.github.io",
   "name": "lt-brand",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
-  "dependencies": {
-    "@chakra-ui/react": "^2.2.1",
-    "@emotion/react": "^11.9.3",
-    "@emotion/styled": "^11.9.3",
-    "@fontsource/prompt": "^4.5.8",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^14.2.1",
-    "framer-motion": "^6.3.15",
-    "gsap": "^3.10.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^3.11.0",
-    "react-lazy-blur-image": "^0.1.2",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^0.2.4"
-  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "build": "node node_modules/tailwindcss/dist/lib.js -w -i tw-input/main.css -o public/main.css",
+    "deploy": "gh-pages -d public"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "6.3.0",
+    "tailwindcss": "^4.0.13"
   }
 }

@@ -11,5 +11,3 @@ module.exports = {
   },
   plugins: [],
 }
-
-// npx tailwindcss -w -i tw-input/main.css -o public/main.css
